@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Form</h1>
+        <div class="name">
+            <h3>Write your name:</h3>
+            <input type="text" placeholder="Write your name" id="inputForUsername">
+            <li id="paragraphForUsername_empty">Write your name</li>
+            <li id="paragraphForUsername_capitalAlphabets">Username should not contain uppercase letters</li>
+            <li id="paragraphForUsername_freeSpaces">Free spaces are not allowed</li>
+        </div>
+        <div class="email">
+            <h3>Write your email:</h3>
+            <input type="text" placeholder="Write your email" id="inputForEmail">
+            <li id="paragraphForEmail_Empty">Write your email</li>
+            <li id="paragraphForEmail_validation">Email is not valid</li>
+        </div>
+        <div class="pass">
+            <h3>Write your password:</h3>
+            <input type="password" placeholder="Write your password" id="inputForPassword">
+            <li id="paragraphForPassword_empty">Write your password</li>
+            <li id="paragraphForPassword_freeSpaces">Free spaces are not allowed</li>
+            <li id="paragraphForPassword_length">Password must be between 8 and 16 characters</li>
+            <li id="paragraphForPassword_capitalAlphabets">Password must contain at least one uppercase letter</li>
+            <li id="paragraphForPassword_lowerCaseAlphabets">Password must contain at least one lowercase letter</li>
+            <li id="paragraphForPassword_digit">Password must contain at least one digit</li>
+            <li id="paragraphForPassword_symbol">Password must contain at least one symbol</li>
+        </div>
+        <div class="cpass">
+            <h3>Confirm password:</h3>
+            <input type="password" placeholder="Confirm password" id="inputForConfirmPassword">
+            <li id="confirmPassword">Confirm your password</li>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

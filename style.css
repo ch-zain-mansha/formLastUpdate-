@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+    margin-left: 25%;
+    background-color: cadetblue;
+}
+form{
+     width: 800px;
+     height: 908px;
+     background-color: white;
+     text-align: center;
+     justify-content: center;
+     border-radius: 45px;
+     margin-top: 5px;
+    }
+
+h3{
+    margin-top: 20px;
+}
+
+input{
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button{
+width: 240px;
+height: 50px;
+border-radius: 10px;
+margin-top: 10px;
+border: transparent;
+background-color: rgb(232, 170, 89);
+color: white;
+cursor: pointer;
+font-size: 25px;
+}
+
+button:hover{
+background-color: rgb(170, 144, 109);
+}
+
+li{
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+li::marker{
+    color: red;
+}
+
+.dotRed::marker{
+color: red;
+}
+.dotGreen::marker{
+    color: green;
+    }
